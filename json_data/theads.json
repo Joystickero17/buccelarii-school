@@ -1,0 +1,33 @@
+
+{
+    "estudiante":["ID",
+        "Nombre",
+        "Apellido",
+        "Cedula",
+        "Grado",
+        
+        "Dirección",
+        "Acción"
+        
+    ],
+    "profesor":[
+        "ID",
+        "Nombre",
+        "Apellido",
+        "Cedula",
+        "Dirección",
+        "Acción"
+
+    ],
+    "materia":[
+        "ID",
+        "Nombre",
+        "Acción"
+    ],
+    "grado":[
+        "ID",
+        "grado",
+        "sección",
+        "Acción"
+    ]
+}

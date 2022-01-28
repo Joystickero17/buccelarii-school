@@ -1,0 +1,11 @@
+ErrorDocument 404 /escuela/404page.php
+
+Options +FollowSymLinks
+RewriteEngine on
+
+RewriteRule ^([a-z]+)/([0-9]+)$ form.php?id=$2&type=$1
+RewriteRule ^([a-z]+)/$ form.php?type=$1
+
+RewriteRule ^registros/([a-z]+)/([0-9]+)$ tables.php?type=$1&ok=$2
+RewriteRule ^registros/([a-z]+)/$ tables.php?type=$1
+RewriteRule ^inicio$ index.php
